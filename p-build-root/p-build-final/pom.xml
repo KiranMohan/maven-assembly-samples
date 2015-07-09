@@ -19,10 +19,10 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<finalName>data</finalName>
+							<finalName>p</finalName>
 							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors>
-								<descriptor>src/assembly/data-assembly.xml</descriptor>
+								<descriptor>src/assembly/p-assembly.xml</descriptor>
 							</descriptors>
 						</configuration>
 					</execution>
@@ -30,4 +30,20 @@
 			</plugin>
 		</plugins>
 	</build>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.ktest.maven</groupId>
+  			<artifactId>p-build-data</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  			<type>pom</type>
+  			<scope>runtime</scope>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.ktest.maven</groupId>
+  			<artifactId>p-build-scripts</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  			<type>pom</type>
+  			<scope>runtime</scope>
+  		</dependency>
+  	</dependencies>
 </project>
