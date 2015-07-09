@@ -10,7 +10,10 @@ p-build-root (packaging:pom)
 	|---p-build-final 
 	|		(packaging:pom, builds p.tar)
 	|		(In p.tar, need to include data.tar and scripts.tar)
-	|		{dependency: p-build-data:type[tar.gz], p-build-scripts:type[tar.gz]
+	|		(dependency: 
+	|			p-build-data:type[tar.gz], 
+	|			p-build-scripts:type[tar.gz]
+	|		)
 
 
 	
