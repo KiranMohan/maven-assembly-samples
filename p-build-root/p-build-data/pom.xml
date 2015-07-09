@@ -9,6 +9,7 @@
 	<artifactId>p-build-data</artifactId>
 	<packaging>pom</packaging>
 	<build>
+		<finalName>data</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -20,7 +21,6 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<finalName>data</finalName>
 							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors>
 								<descriptor>src/assembly/data-assembly.xml</descriptor>

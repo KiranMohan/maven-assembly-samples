@@ -9,6 +9,7 @@
 	<artifactId>p-build-scripts</artifactId>
 	<packaging>pom</packaging>
 	<build>
+		<finalName>scripts</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -20,7 +21,6 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<finalName>scripts</finalName>
 							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors>
 								<descriptor>src/assembly/scripts-assembly.xml</descriptor>
