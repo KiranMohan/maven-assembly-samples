@@ -17,5 +17,6 @@
 	</fileSets>
 	<dependencySets>
 		<dependencySet>
-			<outputFileNameMapping>${artifact.build.finalName}.${artifact.extension}</outputFileNameMapping></dependencySet></dependencySets>
+			<outputFileNameMapping>${artifact.build.finalName}.${artifact.extension}</outputFileNameMapping>
+			<scope>runtime</scope></dependencySet></dependencySets>
 </assembly>
