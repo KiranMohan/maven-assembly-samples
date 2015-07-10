@@ -37,6 +37,7 @@
   			<version>0.0.1-SNAPSHOT</version>
   			<type>tar.gz</type>
   			<scope>runtime</scope>
+  			<classifier>linux</classifier>
   		</dependency>
   		<dependency>
   			<groupId>org.ktest.maven</groupId>

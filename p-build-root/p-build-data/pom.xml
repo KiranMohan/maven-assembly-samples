@@ -21,9 +21,10 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
+							<appendAssemblyId>true</appendAssemblyId>
 							<descriptors>
 								<descriptor>src/assembly/data-assembly.xml</descriptor>
+								<descriptor>src/assembly/data-windows-assembly.xml</descriptor>
 							</descriptors>
 						</configuration>
 					</execution>
